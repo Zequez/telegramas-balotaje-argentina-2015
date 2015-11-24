@@ -1,0 +1,26 @@
+## Lugares donde el FPV obtuvo 2 votos y el Cambiemos no
+
+Distrito | Sección | Circuito | Mesa | Votos registrados
+ --- | --- | --- | --- | ---
+Tierra del Fuego | Antártida Argentina | 0028 | 0439 | [17](http://www.resultados.gob.ar/bltgetelegr/24/003/0028/240030028_0439.htm)
+San Luis | San Martín | 0062 | 0932 | [7](http://www.resultados.gob.ar/bltgetelegr/19/005/0062/190050062_0932.htm)
+Buenos Aires | Rivadavia | 0821 | 0043 | [18](http://www.resultados.gob.ar/bltgetelegr/02/095/0821/020950821_0043.htm)
+Buenos Aires | Maipú | 0617A | 0030 | [14](http://www.resultados.gob.ar/bltgetelegr/02/073/0617A/020730617A0030.htm)
+Buenos Aires | General Alvear | 0313 | 0026 | [12](http://www.resultados.gob.ar/bltgetelegr/02/040/0313/020400313_0026.htm)
+Buenos Aires | Junín | 0453 | 0223 | [47](http://www.resultados.gob.ar/bltgetelegr/02/060/0453/020600453_0223.htm)
+Buenos Aires | Mar Chiquita | 0621A | 0031 | [23](http://www.resultados.gob.ar/bltgetelegr/02/074/0621A/020740621A0031.htm)
+Buenos Aires | Olavarría | 0713 | 0224 | [11](http://www.resultados.gob.ar/bltgetelegr/02/084/0713/020840713_0224.htm)
+Jujuy | Ledesma | 0060 | 1264 | [10](http://www.resultados.gob.ar/bltgetelegr/10/007/0060/100070060_1264.htm)
+Buenos Aires | Necochea | 0689 | 0223 | [9](http://www.resultados.gob.ar/bltgetelegr/02/082/0689/020820689_0223.htm)
+Buenos Aires | Rivadavia | 0818 | 0037 | [26](http://www.resultados.gob.ar/bltgetelegr/02/095/0818/020950818_0037.htm)
+Buenos Aires | Chivilcoy | 0223 | 0168 | [8](http://www.resultados.gob.ar/bltgetelegr/02/031/0223/020310223_0168.htm)
+Buenos Aires | Chivilcoy | 0217 | 0155 | [17](http://www.resultados.gob.ar/bltgetelegr/02/031/0217/020310217_0155.htm)
+Buenos Aires | Chivilcoy | 0213 | 0151 | [18](http://www.resultados.gob.ar/bltgetelegr/02/031/0213/020310213_0151.htm)
+Buenos Aires | San Pedro | 0921 | 0134 | [18](http://www.resultados.gob.ar/bltgetelegr/02/108/0921/021080921_0134.htm)
+Córdoba | Santa María | 0322 | 7648 | [25](http://www.resultados.gob.ar/bltgetelegr/04/021/0322/040210322_7648.htm)
+Buenos Aires | Coronel Suárez | 0255A | 0086 | [25](http://www.resultados.gob.ar/bltgetelegr/02/028/0255A/020280255A0086.htm)
+Buenos Aires | Coronel Suárez | 0255 | 0085 | [32](http://www.resultados.gob.ar/bltgetelegr/02/028/0255/020280255_0085.htm)
+La Pampa | Rancul | 0070 | 0674 | [4](http://www.resultados.gob.ar/bltgetelegr/11/018/0070/110180070_0674.htm)
+Río Negro | Avellaneda | 0051 | 0779 | [11](http://www.resultados.gob.ar/bltgetelegr/16/011/0051/160110051_0779.htm)
+Formosa | Patiño | 0065A | 1138 | [7](http://www.resultados.gob.ar/bltgetelegr/09/006/0065A/090060065A1138.htm)
+Buenos Aires | Ayacucho | 0057 | 0058 | [13](http://www.resultados.gob.ar/bltgetelegr/02/005/0057/020050057_0058.htm)
