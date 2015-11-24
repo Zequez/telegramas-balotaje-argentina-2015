@@ -21,13 +21,16 @@
 
     query: function (query) {
       var answer = this.db.exec(query)
-      var columns = answer[0].columns
-      var values = answer[0].values
       var result = []
-      for (var i = 0, len1 = values.length; i < len1; ++i) {
-        result[i] = {}
-        for (var j = 0, len2 = columns.length; j < len2; ++j) {
-          result[i][columns[j]] = values[i][j]
+      if (answer[0]) {
+        var columns = answer[0].columns
+        var values = answer[0].values
+
+        for (var i = 0, len1 = values.length; i < len1; ++i) {
+          result[i] = {}
+          for (var j = 0, len2 = columns.length; j < len2; ++j) {
+            result[i][columns[j]] = values[i][j]
+          }
         }
       }
       return result
