@@ -1,5 +1,8 @@
 # Telegramas Argentina Balotaje 2015
 
+[Lugares donde Cambiemos obtuvo 0 votos y el FPV no](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/cambiemos_0.md)
+[Lugares donde el FPV obtuvo 0 votos y Cambiemos no](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/fpv_0.md)
+
 En total son 92074 telegramas. De estos 536 no cargan
 la página. Podés revisarlos, están en la base de datos pero
 el único dato es la URL.
