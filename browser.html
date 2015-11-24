@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <script src="http://rawgit.com/kripken/sql.js/master/js/sql.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: monospace;
+      }
+
+      textarea {
+        float: left;
+        width: 80%;
+        height: 200px;
+        padding: 10px;
+        border: solid 1px black;
+        border-left: 0;
+        border-top: 0;
+        font-family: monospace;
+        font-size: 20px;
+      }
+
+      button {
+        display: block;
+        float: left;
+        width: 20%;
+        height: 200px;
+        border: none;
+        background: black linear-gradient(#333 0%, #000 100%);
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+      }
+
+      button:active {
+        background-image: linear-gradient(#000 0%, #333 100%);
+      }
+
+      code {
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 10px;
+        background: #fafafa;
+        min-height: 500px;
+        font-size: 16px;
+        white-space: pre;
+      }
+
+      #error, #loading {
+        width: 100%;
+        float: left;
+        padding: 10px;
+        color: red;
+      }
+
+      table {
+        width: 100%;
+        list-style-type: none;
+      }
+
+      table td {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea placeholder="Query SQLite">SELECT * FROM telegramas WHERE votos_cambiemos = 0 AND votos_fpv != 0</textarea>
+    <button>Ejecutar (shift+enter)</button>
+    <div id='loading'>Son 20MB la base de datos, esperá a que se descargue...</div>
+    <div id='error'>
+
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td>Nro.</td>
+          <td>ID</td>
+
+          <td colspan='2'>Distrito</td>
+          <td colspan='2'>Seccion</td>
+          <td>Circuito</td>
+          <td>Mesa</td>
+
+          <td>Votos nulos</td>
+          <td>Votos blancos</td>
+          <td>Votos recurridos</td>
+          <td>Votos impugnados</td>
+          <td>Votos fpv</td>
+          <td>Votos cambiemos</td>
+
+          <td>Estado</td>
+          <td>URL</td>
+          <td>PDF</td>
+        <tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <code></code>
+    <script src="app.js"></script>
+  </body>
+</html>
