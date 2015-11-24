@@ -65,7 +65,7 @@
     </style>
   </head>
   <body>
-    <textarea placeholder="Query SQLite">SELECT * FROM telegramas WHERE votos_cambiemos = 0 AND votos_fpv != 0</textarea>
+    <textarea placeholder="Query SQLite">SELECT * FROM telegramas LIMIT 100</textarea>
     <button>Ejecutar (shift+enter)</button>
     <div id='loading'>Son 20MB la base de datos, esperá a que se descargue...</div>
     <div id='error'>
