@@ -1,8 +1,15 @@
 # Telegramas Argentina Balotaje 2015
 
-[Lugares donde Cambiemos obtuvo 0 votos y el FPV no](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/cambiemos_0.md)
+[Hagan sus propias queries en SQL acá!](http://zequez.com/telegramas-balotaje-argentina-2015/)
 
-[Lugares donde el FPV obtuvo 0 votos y Cambiemos no](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/fpv_0.md)
+El app usa [sql.js](https://github.com/kripken/sql.js/) y descarga la misma base de datos que ven acá para usar en el cliente.
+
+Ejemplos:
+
+-  [Lugares donde Cambiemos obtuvo 0 votos y el FPV no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_fpv%20!=%200%0A%20%20AND%20votos_cambiemos%20=%200%0AORDER%20BY%20votos_fpv%20DESC%0ALIMIT%20100)
+- [Lugares donde el FPV obtuvo 0 votos y Cambiemos no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_cambiemos%20!=%200%0A%20%20AND%20votos_fpv%20=%200%0AORDER%20BY%20votos_cambiemos%20DESC%0ALIMIT%20100)
+
+Hay fraudalentos de los dos lados! *Boooh*
 
 En total son 92074 telegramas. De estos 536 no cargan
 la página. Podés revisarlos, están en la base de datos pero
