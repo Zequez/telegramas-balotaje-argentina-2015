@@ -6,8 +6,8 @@ El app usa [sql.js](https://github.com/kripken/sql.js/) y descarga la misma base
 
 Ejemplos:
 
--  [Lugares donde Cambiemos obtuvo 0 votos y el FPV no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_fpv%20!=%200%0A%20%20AND%20votos_cambiemos%20=%200%0AORDER%20BY%20votos_fpv%20DESC%0ALIMIT%20100)
-- [Lugares donde el FPV obtuvo 0 votos y Cambiemos no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_cambiemos%20!=%200%0A%20%20AND%20votos_fpv%20=%200%0AORDER%20BY%20votos_cambiemos%20DESC%0ALIMIT%20100)
+-  [Lugares donde Cambiemos obtuvo 0 votos y el FPV no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_fpv%20!=%200%0A%20%20AND%20votos_cambiemos%20=%200%0AORDER%20BY%20votos_fpv%20DESC%0ALIMIT%20100) [Link para compartir](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/cambiemos_0.md)
+- [Lugares donde el FPV obtuvo 0 votos y Cambiemos no](http://zequez.com/telegramas-balotaje-argentina-2015/?query=select%0A%20%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%0A%20%20votos_cambiemos%20!=%200%0A%20%20AND%20votos_fpv%20=%200%0AORDER%20BY%20votos_cambiemos%20DESC%0ALIMIT%20100) [Link para compartir](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/fpv_0.md)
 - [Lugares donde faltan los telegramas](http://zequez.com/telegramas-balotaje-argentina-2015/?query=SELECT%20*%0AFROM%20telegramas%20AS%20t%0AWHERE%20votos_nulos%20IS%20NULL%0AORDER%20BY%20distrito%20ASC,%20seccion%20ASC) [Link para compartir](https://github.com/Zequez/telegramas-balotaje-argentina-2015/blob/master/mesas_perdidas.md)
 
 Hay fraudalentos de los dos lados! *Boooh*
